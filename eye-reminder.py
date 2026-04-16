@@ -24,7 +24,7 @@ except ImportError:
     HAS_TRAY = False
 
 # ---- CONFIG (test mode) ----
-TEST_MODE = True
+TEST_MODE = False
 INTERVAL_SECONDS = 5 if TEST_MODE else 20 * 60
 BREAK_SECONDS = 5 if TEST_MODE else 20
 
